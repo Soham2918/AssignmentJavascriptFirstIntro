@@ -1,0 +1,27 @@
+01
+JS Introduction
+Note: Kindly write down answers in your own words as per your understanding in your note book and upload it in repo
+1.	Explain Release Version History of JavaScript with Current Version 
+    •	Brendan Eich of NetScape invented Java Script in the year 1995 , and became an ECMA standard in 1997
+    •	It was developed for Netscape 2, and became the ECMA-262 standard in 1997.
+    •	After Netscape handed JavaScript over to ECMA, the Mozilla foundation continued to develop JavaScript for the Firefox browser. 
+    •	Mozilla's latest version was 1.8.5. (Identical to ES5).
+    •	Internet Explorer (IE4) was the first browser to support ECMA-262 Edition 1 (ES1).
+    •	ECMAScript is the official name of the language.
+    •	ECMAScript versions have been abbreviated to ES1, ES2, ES3, ES5, and ES6.
+    •	Since 2016, versions are named by year (ECMAScript 2016, 2017, 2018, 2019, 2020).
+
+2.	What is first name of JavaScript and why JavaScript name Ecma JavaScript?
+    •	JavaScript was first known as Mocha then LiveScript and finally In December 1995 when Sun Microsoft acquired it Named as JavaScript in 1996 as 
+
+3.	What is ECMA Script?
+    •	ECMAScript is a JavaScript standard intended to ensure the interoperability of web pages across different browsers
+    •	It is standardized by Ecma International in the document ECMA-262
+    •	ECMAScript is commonly used for client-side scripting on the World Wide Web, and it is increasingly being used for writing server-side applications and services using Node.js and other runtimes.
+
+4.	What is Difference Between Framework and Library?
+    •	FRAMEWORK is a predefined code & predefined process depends on framework. In Framework developer don’t have much flexibility he need to use the predefined code with predefined process.
+    e.g. Angular.Js, Express.Js, Electron
+    
+    •	Library collection prewritten code that can be used  to simplify task(Collection of codes reused repetedly) Here developer have a flexibility to use library developer can  call the library  when he need
+    e.g.React.Js, JQuery, AJAX

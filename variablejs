@@ -1,0 +1,71 @@
+VARIABLE
+1. What is variable?
+    •	Variable is a name of storage location or it is a container where we store the data.
+    •	Usually there are two types of variable Local and Global 
+    •	There are some rules while declaring a JavaScript variable (also known as identifiers). Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign
+    •	4 Ways to Declare a JavaScript Variable:
+            o	Using var
+            o	Using let
+            o	Using const
+            o	Using nothing
+
+
+2. What is Difference between LocalScope, BlockScope and GlobleScope?
+        •	Depending on the place where the variable is defined we can access the variable in program.
+        •	Just because we created variable in one place in our program does not mean that it will get accessed at any place in the program.
+        •	The Scope of variable defines its accessibility
+
+LocalScope:
+        •   If Variable defines inside he function then it have local scope, it can be accessed inside the function only.
+
+
+Global-Scope
+        •	Variable declaired outside the Function () have global Scope 
+        •	Variable declaired with let, var, char outside function are quite similler
+        •	Once we define it will get access anywhere in the code 
+        We use Var for this
+            Eg
+            var x = 5;
+            var y = 6;
+            var z = x + y;
+
+Block
+        •	Before ES6 JavaScript had only global scope and Functional Scope 
+        •	But ES6 introduced two important keyword Let and Const 
+        •	These two var provides block scope
+        •	i.e variable can be accessed in immediate block 
+        •	This scope restricts the variable that is declared inside a specific block, from access by the outside of the block.
+
+
+
+3. What is Difference Between var, let, const with example?
+Var:
+        •	If we define Var the variable is ccessible anywhere in the code with functional scope
+        •	This scope restricts the variable that is declared inside a specific block, from access by the outside of the block.
+        •	For a repetitive input/data usage In code we use Var
+        •	It can update and redeclaired
+
+        Eg Var pass=45154
+        Console.log(pass) ----------------for Prasad it accept
+        Console.log(pass)-----------------for Utkarsh also it will accept
+
+	
+Let:
+        •	If we define it gives block level scope
+        •	It can be updated but cannot be redeclared into the scope.
+        •	If we need some unique data which not to be get repetitively and similar we use Let
+
+        Eg 
+        Let pass=46554
+        Console.log(pass) ----------------for Prasad it accept
+        Console.log(pass)-----------------for Utkarsh it will not accept
+
+Const:
+        •	It is having a block level scope 
+        •	Can not be reinitialized or redeclaired
+
+            Eg con n1=90
+
+            If we go to redeclaire number it will not accept
+
+            Con n2=81-------------------Throws an errror 
